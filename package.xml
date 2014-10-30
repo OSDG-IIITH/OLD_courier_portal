@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.0" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>CAS</name>
+ <channel>__uri</channel>
+ <summary>Central Authentication Service client library in php</summary>
+ <description>This package is a PEAR installable library for using a Central
+Authentication Service.</description>
+ <lead>
+  <name>Joachim Fritschi</name>
+  <user>fritschi</user>
+  <email>fritschi@hrz.tu-darmstadt.de</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Pascal Aubry</name>
+  <user>paubry</user>
+  <email>pascal.aubry@univ-rennes1.fr</email>
+  <active>yes</active>
+ </lead>
+ <helper>
+  <name>Brett Bieber</name>
+  <user>saltybeagle</user>
+  <email>brett.bieber@gmail.com</email>
+  <active>yes</active>
+ </helper>
+ <date>2010-07-12</date>
+ <time>08:31:33</time>
+ <version>
+  <release>1.1.2RC2</release>
+  <api>1.1.2RC2</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.ja-sig.org/wiki/display/CASC/phpCAS">New BSD License</license>
+ <notes>
+see http://www.ja-sig.org/wiki/display/CASC/phpCAS+ChangeLog
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="0c9d3153be1cd5797d551bdc68700cb1" name="CAS/languages/catalan.php" role="php" />
+   <file baseinstalldir="/" md5sum="bc09a9df04cef13254ae57f3a274f0df" name="CAS/languages/english.php" role="php" />
+   <file baseinstalldir="/" md5sum="c2e70183f4b02e0d7fa86246c8ce46db" name="CAS/languages/french.php" role="php" />
+   <file baseinstalldir="/" md5sum="1135952ce25e181ad89c05843314c4b0" name="CAS/languages/german.php" role="php" />
+   <file baseinstalldir="/" md5sum="f1a3d2bf5b62c5ed57c3c0e2d275becc" name="CAS/languages/greek.php" role="php" />
+   <file baseinstalldir="/" md5sum="ebb9a79ae04c030ccb7aabc98c1f43a8" name="CAS/languages/japanese.php" role="php" />
+   <file baseinstalldir="/" md5sum="f0c462c22a96622ced80a4b5dd954d09" name="CAS/languages/languages.php" role="php" />
+   <file baseinstalldir="/" md5sum="734a4d32b5f27017c775d2ed0b6ce2a3" name="CAS/languages/spanish.php" role="php" />
+   <file baseinstalldir="/" md5sum="731911e4c987b29300f1700975c83e5b" name="CAS/PGTStorage/pgt-db.php" role="php" />
+   <file baseinstalldir="/" md5sum="9162d942d32ac8bdc01d409c07f41a0f" name="CAS/PGTStorage/pgt-file.php" role="php" />
+   <file baseinstalldir="/" md5sum="4bd67b4d6d6021504c00eff90e577ac0" name="CAS/PGTStorage/pgt-main.php" role="php" />
+   <file baseinstalldir="/" md5sum="5801f35b93c6bc68a3d2eedc75ad325a" name="CAS/client.php" role="php" />
+   <file baseinstalldir="/" md5sum="e9ce7e11f871d8206b0abc2f608b0277" name="CAS/domxml-php4-to-php5.php" role="php" />
+   <file baseinstalldir="/" md5sum="665f2b2117a000e09ab651378fa7388c" name="docs/api/annotated.html" role="doc" />
+   <file baseinstalldir="/" md5sum="8208b2d6f4204b1134ac18676c516402" name="docs/api/CAS_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="783ba56145cb6d32401048c7b47b72e8" name="docs/api/CAS_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="34cfe7143e66435f2ed23eec5b803740" name="docs/api/catalan_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="a6ccfb75370552d5964ea15e0684fafa" name="docs/api/catalan_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="32373607d1967db989dac6a6a109a963" name="docs/api/classCASClient-members.html" role="doc" />
+   <file baseinstalldir="/" md5sum="95b750f2e03c28e646565138865584ac" name="docs/api/classCASClient.html" role="doc" />
+   <file baseinstalldir="/" md5sum="b1b6e8a5d9f0ae864948830bd8929d48" name="docs/api/classes.html" role="doc" />
+   <file baseinstalldir="/" md5sum="a52789fd22dfc466e50051aa2c25e7be" name="docs/api/classPGTStorage-members.html" role="doc" />
+   <file baseinstalldir="/" md5sum="1d8a81b2c306246cca1f55c7db7cfad3" name="docs/api/classPGTStorage.html" role="doc" />
+   <file baseinstalldir="/" md5sum="84233c7628719fe847b828a502d0806a" name="docs/api/classPGTStorage.png" role="doc" />
+   <file baseinstalldir="/" md5sum="8eb1a582a810cf58843af1a581004dc6" name="docs/api/classPGTStorageDB-members.html" role="doc" />
+   <file baseinstalldir="/" md5sum="aa5acb8e62ea3c2ec297b3e8ce3b1e29" name="docs/api/classPGTStorageDB.html" role="doc" />
+   <file baseinstalldir="/" md5sum="625ab74f2d013df5ee8ba01b1317b243" name="docs/api/classPGTStorageDB.png" role="doc" />
+   <file baseinstalldir="/" md5sum="28801ce59dbf870c8c84a8ac4e382798" name="docs/api/classPGTStorageFile-members.html" role="doc" />
+   <file baseinstalldir="/" md5sum="d82d99425b7ec1e184fc5bb0570f31e7" name="docs/api/classPGTStorageFile.html" role="doc" />
+   <file baseinstalldir="/" md5sum="6fadc624a98240b88fe4dcfe4d05843c" name="docs/api/classPGTStorageFile.png" role="doc" />
+   <file baseinstalldir="/" md5sum="3dda9ca263df726a6fde0fcba32ec233" name="docs/api/classphpCAS-members.html" role="doc" />
+   <file baseinstalldir="/" md5sum="0dbe64fd8f704b9ba14f14254eae5577" name="docs/api/classphpCAS.html" role="doc" />
+   <file baseinstalldir="/" md5sum="60a75335c3c10558d4bf3d7050ec3b7a" name="docs/api/client_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="dcdc3cfa7b80a25e8de6a018be4033fb" name="docs/api/client_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="e4eba747a7186f376874aaa2cb5a73e4" name="docs/api/deprecated.html" role="doc" />
+   <file baseinstalldir="/" md5sum="a0f265563f3f7e140ce1392c0f66fd5d" name="docs/api/doxygen.css" role="doc" />
+   <file baseinstalldir="/" md5sum="33f874b8cd0ceafd80ccad649e6e7846" name="docs/api/doxygen.png" role="doc" />
+   <file baseinstalldir="/" md5sum="bd58ec0d21995075e263a0a1dbff30dd" name="docs/api/english_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="4d8b9432a757deec5e1f1d63fd815c30" name="docs/api/english_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="e2194383fcbbde68f45e2bd8f09af6d2" name="docs/api/examples.html" role="doc" />
+   <file baseinstalldir="/" md5sum="44b341e619f78dc3dab4328e658f4d84" name="docs/api/example__custom__urls.php-example.html" role="doc" />
+   <file baseinstalldir="/" md5sum="25eccac5b8c261d77da6a9e5c513560f" name="docs/api/example__custom__urls_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="42c2adb7c84aaca5d5b8a2650994f86d" name="docs/api/example__custom__urls_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="5ce18c04a7a66bffb3d9e345295fb148" name="docs/api/example__db.php-example.html" role="doc" />
+   <file baseinstalldir="/" md5sum="d383b9d9b04a072526d0e0a3196d95de" name="docs/api/example__db_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="a23429204d75067531d25e7a2c2a0383" name="docs/api/example__db_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="432ce6b2249830e534c8b4f1211490c1" name="docs/api/example__file.php-example.html" role="doc" />
+   <file baseinstalldir="/" md5sum="882605aa915ff953af7ccf822f502dfe" name="docs/api/example__file_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="4cdec51b7a1d86970532d717cb68f605" name="docs/api/example__file_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="9e6e225e635b558588f49629849cb3df" name="docs/api/example__gateway.php-example.html" role="doc" />
+   <file baseinstalldir="/" md5sum="6fa70f5ccf7cf0d38623d66dc125dc5b" name="docs/api/example__gateway_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="8b3f47e4220f024e760ca0ade1e12bb3" name="docs/api/example__gateway_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="8a977e1071ba3d53406f6eb01b198a4d" name="docs/api/example__html.php-example.html" role="doc" />
+   <file baseinstalldir="/" md5sum="c9508e7381da7d3edad6d8138ab62d25" name="docs/api/example__html_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="423345b1f03257a2af124ee9f27df677" name="docs/api/example__html_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="a9696ea2f1316cf33b064811ec9d8266" name="docs/api/example__lang.php-example.html" role="doc" />
+   <file baseinstalldir="/" md5sum="0aa85e583961f3d9655b5b2510f5e2cb" name="docs/api/example__lang_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="2f2cd0802a0029aaf3ae8ba903266de9" name="docs/api/example__lang_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="c88f943a7914d18de7fbd87181749b2f" name="docs/api/example__logout_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="6e2f903c5dfacb68520fb3303baa5f78" name="docs/api/example__logout_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="e3fe4da9dfb0d08bb03bc4b2c0fd6533" name="docs/api/example__proxy.php-example.html" role="doc" />
+   <file baseinstalldir="/" md5sum="7d18742ef19dab02f32355496259d9b9" name="docs/api/example__proxy2.php-example.html" role="doc" />
+   <file baseinstalldir="/" md5sum="0f25d51525cb32bf29d6674c1b3cff08" name="docs/api/example__proxy2_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="cd03545d9e5a05ff98b34e7fb657d86c" name="docs/api/example__proxy2_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="d6415de5cd20adafa09799cd477a8f3a" name="docs/api/example__proxy_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="1b4967d9dacc39ff821e7c3d45553537" name="docs/api/example__proxy_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="c6307ff940f6bb066dd14f43cad314b1" name="docs/api/example__service.php-example.html" role="doc" />
+   <file baseinstalldir="/" md5sum="e783fa35ef8cf5dea79ed7875f860f8b" name="docs/api/example__service_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="6806c8e376eb865a7e71c1009824680b" name="docs/api/example__service_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="978601c22b7e1b75cd729d4a17bbeaf1" name="docs/api/example__session__proxy.php-example.html" role="doc" />
+   <file baseinstalldir="/" md5sum="ac2d8668c4ba3737f4006812fa835a9b" name="docs/api/example__session__proxy_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="a15e465974f1d6eaa79142f2f28046b5" name="docs/api/example__session__proxy_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="5389bb960c4e7a9ece1c487cae348329" name="docs/api/example__session__service.php-example.html" role="doc" />
+   <file baseinstalldir="/" md5sum="f8027c5d41dfa0a07dea160882743d60" name="docs/api/example__session__service_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="9479a2b1214bc36981a0c5b1763d7e34" name="docs/api/example__session__service_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="674b8f9e24af543ae5f35d8d1c402d3a" name="docs/api/example__simple.php-example.html" role="doc" />
+   <file baseinstalldir="/" md5sum="1f91ca6186d0f46c4cc5879991a22e0b" name="docs/api/example__simple_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="d061b772de7df573ec5ae29da2750e5b" name="docs/api/example__simple_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="300847a7f9effa02165a06b5de787aed" name="docs/api/files.html" role="doc" />
+   <file baseinstalldir="/" md5sum="4658bfaefb363b4a4966c8b9d749b653" name="docs/api/french_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="8652e08acb0b79b853b5c7ee9ba473b3" name="docs/api/french_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="63ba7821b0b46f88b12f68a1b1210b03" name="docs/api/functions.html" role="doc" />
+   <file baseinstalldir="/" md5sum="085b4f4b6f01b9fbc8e5ab311ab55a7b" name="docs/api/functions_func.html" role="doc" />
+   <file baseinstalldir="/" md5sum="6209c2d26e3e47086732c394601c8d0d" name="docs/api/functions_vars.html" role="doc" />
+   <file baseinstalldir="/" md5sum="c3102cf4392a91196cabfbfbb6b5d149" name="docs/api/german_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="f7f8093e4711bbcef2ee859989f28675" name="docs/api/german_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="b837723379c1085cdc339fd5e659fe0d" name="docs/api/globals.html" role="doc" />
+   <file baseinstalldir="/" md5sum="7ece759589e9f7a51076f39850a69dcb" name="docs/api/globals_enum.html" role="doc" />
+   <file baseinstalldir="/" md5sum="f08c0dccc21dda30012fa347d5d86dce" name="docs/api/globals_vars.html" role="doc" />
+   <file baseinstalldir="/" md5sum="a16e520129e314760205620d9e4a7a0e" name="docs/api/greek_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="8cc304a4aa7c11c406f8a8880452c834" name="docs/api/greek_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="777d332461b752bf5854494cad5bbdc9" name="docs/api/group__internal.html" role="doc" />
+   <file baseinstalldir="/" md5sum="9249ea2a11b864a1057ffab9c5f1f2a1" name="docs/api/group__internalAuthentication.html" role="doc" />
+   <file baseinstalldir="/" md5sum="7fa4b4203c4fd4870b5cad9e78edb095" name="docs/api/group__internalBasic.html" role="doc" />
+   <file baseinstalldir="/" md5sum="f97f033ac3d0b8bd2ed621c0583ecd6b" name="docs/api/group__internalCallback.html" role="doc" />
+   <file baseinstalldir="/" md5sum="5ff26942350c4e8f2a3797f316a40f61" name="docs/api/group__internalConfig.html" role="doc" />
+   <file baseinstalldir="/" md5sum="449896d6da1d5ccc392749dd5679f554" name="docs/api/group__internalDebug.html" role="doc" />
+   <file baseinstalldir="/" md5sum="722d6fca7946a113f016c38234fc094f" name="docs/api/group__internalLang.html" role="doc" />
+   <file baseinstalldir="/" md5sum="6ad7a9439e0301011fb77e1733609912" name="docs/api/group__internalMisc.html" role="doc" />
+   <file baseinstalldir="/" md5sum="9d53473ea1d43cc68d2c4e604c4ea964" name="docs/api/group__internalOutput.html" role="doc" />
+   <file baseinstalldir="/" md5sum="de5fddd5818dcae33752892949fa434f" name="docs/api/group__internalPGTStorage.html" role="doc" />
+   <file baseinstalldir="/" md5sum="2f93847590f7a1b9a9d716e01c311757" name="docs/api/group__internalPGTStorageDB.html" role="doc" />
+   <file baseinstalldir="/" md5sum="89f6a3005f16d4bd9a84fed39a0cdbfe" name="docs/api/group__internalPGTStorageFile.html" role="doc" />
+   <file baseinstalldir="/" md5sum="c74bc426df95d5afeb608f940d0d98a2" name="docs/api/group__internalProxied.html" role="doc" />
+   <file baseinstalldir="/" md5sum="583f020f29e6142f817597e551481f2a" name="docs/api/group__internalProxy.html" role="doc" />
+   <file baseinstalldir="/" md5sum="c0172df88907e9866c6bc5e0fb9b79c2" name="docs/api/group__public.html" role="doc" />
+   <file baseinstalldir="/" md5sum="6a609b6b69a6bcd28eda2e8985e31372" name="docs/api/group__publicAuth.html" role="doc" />
+   <file baseinstalldir="/" md5sum="04813bc9cb1f9a29066521e46415f366" name="docs/api/group__publicConfig.html" role="doc" />
+   <file baseinstalldir="/" md5sum="8621cd1e9ba98cb7bd07682f22903049" name="docs/api/group__publicDebug.html" role="doc" />
+   <file baseinstalldir="/" md5sum="b604044b6777acb46d41ac46ade0294d" name="docs/api/group__publicInit.html" role="doc" />
+   <file baseinstalldir="/" md5sum="f8ef69980b6d4f4c2565ee88ff714c68" name="docs/api/group__publicLang.html" role="doc" />
+   <file baseinstalldir="/" md5sum="a6da302a863bed419c0a849c38739352" name="docs/api/group__publicOutput.html" role="doc" />
+   <file baseinstalldir="/" md5sum="3c9435dbeb605ec7e6357490fe4af322" name="docs/api/group__publicPGTStorage.html" role="doc" />
+   <file baseinstalldir="/" md5sum="86d8fccf4fc121177b396aaf20ae0300" name="docs/api/group__publicServices.html" role="doc" />
+   <file baseinstalldir="/" md5sum="11aa731aeb9a79fe526510f98b28b373" name="docs/api/hierarchy.html" role="doc" />
+   <file baseinstalldir="/" md5sum="4aecf3816d9d761e2c1cf82e3c10476a" name="docs/api/index.html" role="doc" />
+   <file baseinstalldir="/" md5sum="03d13af8c653f4a175db3cb04353208f" name="docs/api/japanese_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="bded3a8bfa4f05af43bc426933722b5b" name="docs/api/japanese_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="6a7d6abd432ca7fb9f620217c780c22c" name="docs/api/languages_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="f69f870fa6d7db434f459e9b0579ef72" name="docs/api/languages_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="6cc443eb28cf45a261f281f8024843eb" name="docs/api/modules.html" role="doc" />
+   <file baseinstalldir="/" md5sum="c4a033182b175ca2e7209ea8c427b4e9" name="docs/api/pages.html" role="doc" />
+   <file baseinstalldir="/" md5sum="ad087aaab6d7ad896100bb56634b640c" name="docs/api/pgt-db_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="44556e12d7b1400cb91e917ecf9b51a5" name="docs/api/pgt-db_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="33f632d84d942e4b2291037c9c98164e" name="docs/api/pgt-file_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="872c55a2238b994cd94b32996a8229a7" name="docs/api/pgt-file_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="bdc19854434015983fde600da66a2980" name="docs/api/pgt-main_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="e018928e9a1e5ec22e4934863697076a" name="docs/api/pgt-main_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="a6bfd46839326a3b013410df32532887" name="docs/api/spanish_8php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="f4a0d309c537db48ce2bcccc20b6560c" name="docs/api/spanish_8php_source.html" role="doc" />
+   <file baseinstalldir="/" md5sum="c1ee53b84ad062b911957f90dc631dd2" name="docs/api/tabs.css" role="doc" />
+   <file baseinstalldir="/" md5sum="a22ef28753006f7a725a9099ade93548" name="docs/api/tab_b.gif" role="doc" />
+   <file baseinstalldir="/" md5sum="749f90bcfb2030b4f2c0d274ac3b60ff" name="docs/api/tab_l.gif" role="doc" />
+   <file baseinstalldir="/" md5sum="9802233fa0b185ac2242b8dce096cb90" name="docs/api/tab_r.gif" role="doc" />
+   <file baseinstalldir="/" md5sum="fa88f96535e9c3bc03508e977be04bf0" name="docs/examples/example_custom_urls.php" role="doc" />
+   <file baseinstalldir="/" md5sum="24bedc1a9ad0413518e1ef2c212937cf" name="docs/examples/example_db.php" role="doc" />
+   <file baseinstalldir="/" md5sum="619f427c1de8bedfe49247b7f95d3e7f" name="docs/examples/example_file.php" role="doc" />
+   <file baseinstalldir="/" md5sum="e6c48fef1a5410bb19351ce11d2b2646" name="docs/examples/example_gateway.php" role="doc" />
+   <file baseinstalldir="/" md5sum="fb35ebb5387589b29870527862daf997" name="docs/examples/example_html.php" role="doc" />
+   <file baseinstalldir="/" md5sum="018e5963daed34d9a4d04b84471d559b" name="docs/examples/example_lang.php" role="doc" />
+   <file baseinstalldir="/" md5sum="c759e65477b59564fa23ac0afd0a6236" name="docs/examples/example_logout.php" role="doc" />
+   <file baseinstalldir="/" md5sum="7b4145f07338807f75c65c49e1294aa6" name="docs/examples/example_proxy.php" role="doc" />
+   <file baseinstalldir="/" md5sum="fa8407cd94858a72a74398995319f035" name="docs/examples/example_proxy2.php" role="doc" />
+   <file baseinstalldir="/" md5sum="77e719e15adfd7feed96c82409a82b38" name="docs/examples/example_service.php" role="doc" />
+   <file baseinstalldir="/" md5sum="571562479dace7cd6d78d21063e8a339" name="docs/examples/example_session_proxy.php" role="doc" />
+   <file baseinstalldir="/" md5sum="2c2c09178b09658bb9ab193d207e6b9a" name="docs/examples/example_session_service.php" role="doc" />
+   <file baseinstalldir="/" md5sum="36daf2b20ccbbf3fdfeae84b4e24795e" name="docs/examples/example_simple.php" role="doc" />
+   <file baseinstalldir="/" md5sum="0fd2886924063e1ffb59a4b7b5a9fc33" name="docs/images/esup-portail.png" role="doc" />
+   <file baseinstalldir="/" md5sum="e1f030aaac6ed678b1bc938a79fa0aa2" name="docs/images/jasig.png" role="doc" />
+   <file baseinstalldir="/" md5sum="be88d33aa82cad247c887b71cc91c8b8" name="docs/images/phpcas.png" role="doc" />
+   <file baseinstalldir="/" md5sum="9330a11fd3fd4ca20466fa23080145af" name="docs/ChangeLog" role="doc" />
+   <file baseinstalldir="/" md5sum="8b55ff8b0efc4d70a30e3d282f4ef188" name="docs/index.html" role="doc" />
+   <file baseinstalldir="/" md5sum="d153a0effa32fbccded9387ea5310df6" name="docs/README" role="doc" />
+   <file baseinstalldir="/" md5sum="bb7f3c96c628364f1f779e6fd1fd4fa2" name="CAS.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.3</min>
+   </pearinstaller>
+   <package>
+    <name>DB</name>
+    <channel>pear.php.net</channel>
+    <min>1.4.0</min>
+   </package>
+   <extension>
+    <name>curl</name>
+   </extension>
+   <extension>
+    <name>openssl</name>
+   </extension>
+   <extension>
+    <name>dom</name>
+   </extension>
+   <extension>
+    <name>zlib</name>
+   </extension>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.1.2RC2</release>
+    <api>1.1.2RC2</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-07-12</date>
+   <license uri="http://www.ja-sig.org/wiki/display/CASC/phpCAS">New BSD License</license>
+   <notes>
+see http://www.ja-sig.org/wiki/display/CASC/phpCAS+ChangeLog
+   </notes>
+  </release>
+ </changelog>
+</package>
